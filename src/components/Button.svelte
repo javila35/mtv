@@ -12,7 +12,7 @@
 		width: 22.5em;
 		max-width: 360px;
 		height: 5.625em;
-		max-height: 90px;
+		max-height: 75px;
 		font-size: 2.25em;
 		margin-top: 30px;
 		margin-bottom: 30px;
