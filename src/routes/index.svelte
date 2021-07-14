@@ -2,6 +2,7 @@
 	import { media } from '../stores/media';
 	import Button from '../components/Button.svelte';
 	import BackgroundImage from '../components/BackgroundImage.svelte';
+	import SearchBar from '../components/SearchBar.svelte';
 	import Video from '../components/Video.svelte';
 </script>
 
@@ -16,6 +17,7 @@
 		<Button genre="Rap" />
 		<Button genre="Electronic" />
 		<Button genre="Rock" />
+		<SearchBar />
 	</div>
 </div>
 
