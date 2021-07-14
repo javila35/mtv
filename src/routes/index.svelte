@@ -1,10 +1,16 @@
 <script>
+	import { media } from '../stores/media';
 	import Button from '../components/Button.svelte';
+	import BackgroundImage from '../components/BackgroundImage.svelte';
 	import Video from '../components/Video.svelte';
 </script>
 
 <div>
-	<Video />
+	{#if !$media.noAnimations}
+		<Video />
+	{:else}
+		<BackgroundImage />
+	{/if}
 	<div class="button-area">
 		<Button genre="Country" />
 		<Button genre="Rap" />
