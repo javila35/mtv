@@ -17,4 +17,15 @@
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
+
+	/** Mobile style */
+	@media only screen and (max-width: 600px) {
+		button {
+			width: 25vw;
+			height: 10vh;
+			font-size: 1em;
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+	}
 </style>

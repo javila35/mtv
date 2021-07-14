@@ -17,11 +17,10 @@
 	div {
 		display: grid;
 		max-height: 100vh;
-		grid-template: 1fr 3fr 1fr 1fr / 1fr;
+		grid-template: 1fr 3fr 1fr / 1fr;
 		grid-template-areas:
 			'header'
 			'button'
-			'search'
 			'footer';
 	}
 
