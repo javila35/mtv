@@ -1,16 +1,5 @@
-<script>
-	let isMotionAllowed = true;
-
-	const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-
-	if (!mediaQuery || mediaQuery.matches) {
-		isMotionAllowed = false;
-	}
-</script>
-
-<svelte:window />
 <video
-	autoplay={isMotionAllowed}
+	autoplay
 	muted
 	loop
 	poster="https://res.cloudinary.com/deijyaaid/image/upload/v1626032240/Screen_Shot_2021-07-11_at_12.36.48_PM_kvddiy.png"
@@ -25,7 +14,7 @@
 <style>
 	video {
 		grid-area: 1 / 1 / -1 / -1;
-		opacity: 0.4;
+		opacity: 0.3;
 		z-index: -1;
 		width: 100%;
 		height: 100%;
